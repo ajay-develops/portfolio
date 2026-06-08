@@ -281,6 +281,33 @@ export const DATA = {
         "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZB5ficjfp1ATUW8h0YFJvDsBpCZN9cEdxmbyaV",
     },
     {
+      title: "Open-Source WhatsApp CRM Automator",
+      href: "https://github.com/ajay-develops/whatsapp-bot.git",
+      dates: "July 2024 - August 2024",
+      active: false,
+      description:
+        "Architected and launched an open-source WhatsApp automation ecosystem engineered to seamlessly bridge CRM platforms with real-time messaging. Developed a high-volume Express.js backend utilizing the Baileys library for automated customer workflows, paired with a React.js Chrome extension for rapid, secure device authentication and client onboarding.",
+      technologies: [
+        "React.js",
+        "Chrome Extension API",
+        "Express.js",
+        "Node.js",
+        "Baileys Library",
+        "JavaScript",
+        "Automation",
+        "Open Source",
+      ],
+      links: [
+        {
+          type: "Source Code",
+          href: "https://github.com/ajay-develops/whatsapp-bot.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video:
+        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBuFM3SK0qBA8gH0slpkoEKaN39QzfyGeW7OxT",
+    },
+    {
       title: "Scale Analytics App",
       href: "https://app.scale-analytics.com",
       dates: "Mar 2024 - Jan 2025",
@@ -307,33 +334,6 @@ export const DATA = {
       ],
       image:
         "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBWwCJdYcrbCUeJLmhPzXSQ3BNcuEf5OTiDsZx",
-    },
-    {
-      title: "Open-Source WhatsApp CRM Automator",
-      href: "https://github.com/ajay-develops/whatsapp-bot.git",
-      dates: "July 2024 - August 2024",
-      active: false,
-      description:
-        "Architected and launched an open-source WhatsApp automation ecosystem engineered to seamlessly bridge CRM platforms with real-time messaging. Developed a high-volume Express.js backend utilizing the Baileys library for automated customer workflows, paired with a React.js Chrome extension for rapid, secure device authentication and client onboarding.",
-      technologies: [
-        "React.js",
-        "Chrome Extension API",
-        "Express.js",
-        "Node.js",
-        "Baileys Library",
-        "JavaScript",
-        "Automation",
-        "Open Source",
-      ],
-      links: [
-        {
-          type: "Source Code",
-          href: "https://github.com/ajay-develops/whatsapp-bot.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      video:
-        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBuFM3SK0qBA8gH0slpkoEKaN39QzfyGeW7OxT",
     },
   ],
   // Example hackathon entry — uncomment and add to the array to restore the timeline section.
