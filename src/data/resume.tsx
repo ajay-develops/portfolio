@@ -20,7 +20,7 @@ import { Vercel } from "@/components/ui/svgs/vercel";
 import { AWS } from "@/components/ui/svgs/aws";
 import type { ReactNode } from "react";
 
-type HackathonEntry = {
+export type HackathonEntry = {
   title: string;
   dates: string;
   location: string;
@@ -225,7 +225,6 @@ export const DATA = {
       ],
       image:
         "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZB5u2DOkp1ATUW8h0YFJvDsBpCZN9cEdxmbyaV",
-      video: "",
     },
     {
       title: "Gastro Genius Challenge",
@@ -260,7 +259,6 @@ export const DATA = {
       ],
       image:
         "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBceS4MRQ3pzGFbN9tPDEgi7XYIlm1QwkMZCUH",
-      video: "",
     },
     {
       title: "NextGenPayment Website & Marketing",
@@ -279,7 +277,8 @@ export const DATA = {
       ],
       image:
         "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBj5Rg7NPZWcXAiRwJgVpOLxofjNBUrG75ulkb",
-      video: "",
+      video:
+        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZB5ficjfp1ATUW8h0YFJvDsBpCZN9cEdxmbyaV",
     },
     {
       title: "Scale Analytics App",
@@ -308,7 +307,6 @@ export const DATA = {
       ],
       image:
         "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBWwCJdYcrbCUeJLmhPzXSQ3BNcuEf5OTiDsZx",
-      video: "",
     },
     {
       title: "Open-Source WhatsApp CRM Automator",
@@ -334,7 +332,6 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
       video:
         "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBuFM3SK0qBA8gH0slpkoEKaN39QzfyGeW7OxT",
     },

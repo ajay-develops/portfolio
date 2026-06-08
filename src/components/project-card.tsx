@@ -8,6 +8,11 @@ import Link from "next/link";
 import { useState } from "react";
 import Markdown from "react-markdown";
 
+function getMediaUrl(url?: string) {
+  const trimmed = url?.trim();
+  return trimmed || undefined;
+}
+
 function ProjectImage({ src, alt }: { src: string; alt: string }) {
   const [imageError, setImageError] = useState(false);
 
@@ -20,6 +25,8 @@ function ProjectImage({ src, alt }: { src: string; alt: string }) {
       src={src}
       alt={alt}
       className="w-full h-48 object-cover"
+      crossOrigin="anonymous"
+      referrerPolicy="no-referrer"
       onError={() => setImageError(true)}
     />
   );
@@ -54,6 +61,11 @@ export function ProjectCard({
   links,
   className,
 }: Props) {
+  const mediaVideo = getMediaUrl(video);
+  const mediaImage = getMediaUrl(image);
+  const [videoError, setVideoError] = useState(false);
+  const showVideo = Boolean(mediaVideo) && !videoError;
+
   return (
     <div
       className={cn(
@@ -68,17 +80,21 @@ export function ProjectCard({
           rel="noopener noreferrer"
           className="block"
         >
-          {video ? (
+          {showVideo ? (
             <video
-              src={video}
+              src={mediaVideo}
+              poster={mediaImage}
               autoPlay
               loop
               muted
               playsInline
+              preload="metadata"
+              crossOrigin="anonymous"
               className="w-full h-48 object-cover"
+              onError={() => setVideoError(true)}
             />
-          ) : image ? (
-            <ProjectImage src={image} alt={title} />
+          ) : mediaImage ? (
+            <ProjectImage src={mediaImage} alt={title} />
           ) : (
             <div className="w-full h-48 bg-muted" />
           )}

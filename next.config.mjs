@@ -3,6 +3,15 @@ import { withContentCollections } from "@content-collections/next";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "iac6kgxxs9.ufs.sh",
+        pathname: "/f/**",
+      },
+    ],
+  },
   async headers() {
     return [
       {
