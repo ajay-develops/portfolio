@@ -262,7 +262,7 @@ export const DATA = {
     },
     {
       title: "NextGenPayment Website & Marketing",
-      href: "https://nextgenpayment.eu",
+      href: "https://www.nextgenpayment.eu",
       dates: "June 2025 - July 2025",
       active: true,
       description:
