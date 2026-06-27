@@ -197,6 +197,33 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "ZemaFidelat",
+      href: "https://zemafidelat.com",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "Architected a full-stack language learning platform that helps users master the Geez (Ethiopic) script through interactive lessons, letter tracing, spaced-repetition flashcards, daily challenges, and gamification. Built with an offline-first architecture, featuring cloud sync, multi-profile support, and real-time progress tracking.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "Typescript",
+        "Next.js",
+        "Payload CMS",
+        "MongoDB",
+        "SQLite",
+        "TailwindCSS",
+        "React Native Skia",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://zemafidelat.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      video:"https://4yyf0ye423.ufs.sh/f/hYMf620cdTwfzVwUjGa7SqORwrG3sypi61KtvDUAWaV0xdHu"
+    },
+    {
       title: "Logopsi Estudios Ed Tech WebApp",
       href: "https://app.logopsiestudios.com",
       dates: "Jan 2025 - March 2025",
