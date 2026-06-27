@@ -224,6 +224,31 @@ export const DATA = {
       video:"https://4yyf0ye423.ufs.sh/f/hYMf620cdTwfzVwUjGa7SqORwrG3sypi61KtvDUAWaV0xdHu"
     },
     {
+      title: "Webpage Showcase",
+      href: "https://github.com/ajay-develops/webpage-showcase-chrome-extension",
+      dates: "2026",
+      active: true,
+      description:
+        "Built a privacy-first, Manifest V3 Chrome extension that acts as a camera dolly for your browser, providing cinematic, repeatable auto-scroll for product demo recordings. Features a framework-agnostic scroll engine with cubic-easing animation, intelligent section auto-detection, tunable speeds/pauses, sticky-header offset handling, and per-website persistence.",
+      technologies: [
+        "TypeScript",
+        "WXT",
+        "Vite",
+        "Vitest",
+        "Chrome Extensions API",
+        "Manifest V3",
+        "Open Source",
+      ],
+      links: [
+        {
+          type: "Source Code",
+          href: "https://github.com/ajay-develops/webpage-showcase-chrome-extension",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "https://4yyf0ye423.ufs.sh/f/hYMf620cdTwfV6rOFXgNsKjO3etrwLoMJR14vYCQ6u2Xh9Ga"
+    },
+    {
       title: "Logopsi Estudios Ed Tech WebApp",
       href: "https://app.logopsiestudios.com",
       dates: "Jan 2025 - March 2025",
