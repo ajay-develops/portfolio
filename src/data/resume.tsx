@@ -225,7 +225,7 @@ export const DATA = {
     },
     {
       title: "Webpage Showcase",
-      href: "https://github.com/ajay-develops/webpage-showcase-chrome-extension",
+      href: "https://chromewebstore.google.com/detail/jfgegogopcpjgmenieojcjnppikopdag?utm_source=item-share-cb",
       dates: "2026",
       active: true,
       description:
@@ -241,10 +241,15 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Source Code",
+          type: "GitHub",
           href: "https://github.com/ajay-develops/webpage-showcase-chrome-extension",
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type:"Chrome Web Store",
+          href: "https://chromewebstore.google.com/detail/jfgegogopcpjgmenieojcjnppikopdag?utm_source=item-share-cb",
+          icon: <Icons.globe className="size-3" />,
+        }
       ],
       video: "https://4yyf0ye423.ufs.sh/f/hYMf620cdTwfV6rOFXgNsKjO3etrwLoMJR14vYCQ6u2Xh9Ga"
     },
