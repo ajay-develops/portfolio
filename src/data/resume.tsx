@@ -251,7 +251,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      video: "https://4yyf0ye423.ufs.sh/f/hYMf620cdTwfYdN0IgZWvHntKV2pfZ0hxOJQEzbFya9MorS5"
+      video: "https://4yyf0ye423.ufs.sh/f/hYMf620cdTwfzVwUjGa7SqORwrG3sypi61KtvDUAWaV0xdHu"
     },
     {
       title: "Logopsi Estudios Ed Tech WebApp",
