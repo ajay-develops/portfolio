@@ -199,7 +199,7 @@ export const DATA = {
     {
       title: "ZemaFidelat",
       href: "https://zemafidelat.com",
-      dates: "2025 - Present",
+      dates: "2026 - Present",
       active: true,
       description:
         "Architected a full-stack language learning platform that helps users master the Geez (Ethiopic) script through interactive lessons, letter tracing, spaced-repetition flashcards, daily challenges, and gamification. Built with an offline-first architecture, featuring cloud sync, multi-profile support, and real-time progress tracking.",
@@ -222,6 +222,39 @@ export const DATA = {
         },
       ],
       video:"https://4yyf0ye423.ufs.sh/f/hYMf620cdTwfzVwUjGa7SqORwrG3sypi61KtvDUAWaV0xdHu"
+    },
+    {
+      title: "SubGenAI",
+      href: "https://subgenai.ajaydevelops.in",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "Architected a privacy-focused web application that generates timestamped SRT subtitles from video using client-side ffmpeg.wasm audio extraction and Google Gemini AI. Built with a secure BYOK (Bring Your Own Key) architecture using AES-256-GCM encryption, featuring real-time streaming responses, multi-language support, and Clerk authentication.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Clerk",
+        "Google Gemini",
+        "Vercel AI SDK",
+        "ffmpeg.wasm",
+        "Upstash Redis",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://subgenai.ajaydevelops.in",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ajay-develops/sub-gen-ai",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video:"https://4yyf0ye423.ufs.sh/f/hYMf620cdTwfcDjwxChNXmlbt0zBrKI7p8GfnPkaHDLqy6oV"
     },
     {
       title: "Webpage Showcase",
