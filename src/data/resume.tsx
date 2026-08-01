@@ -226,13 +226,9 @@ export const DATA = {
           href: "https://zyrasound.ajaydevelops.in",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/ajay-develops/zyrasound-claude",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
-      video: "", // no recording yet — see note below
+      video:
+        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/zyrasound.mp4",
     },
     {
       title: "ZemaFidelat",
