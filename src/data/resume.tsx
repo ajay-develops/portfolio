@@ -18,6 +18,8 @@ import { PrismicIO } from "@/components/ui/svgs/prismic.io";
 import { ExpressJS } from "@/components/ui/svgs/expressjs";
 import { Vercel } from "@/components/ui/svgs/vercel";
 import { AWS } from "@/components/ui/svgs/aws";
+import { Expo } from "@/components/ui/svgs/expo";
+import { Stripe } from "@/components/ui/svgs/stripe";
 import type { ReactNode } from "react";
 
 export type HackathonEntry = {
@@ -46,7 +48,7 @@ export const DATA = {
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
     { name: "React Native", icon: ReactLight },
-    // { name: "Expo", icon: ExpoLight },
+    { name: "Expo", icon: Expo },
     { name: "Typescript", icon: Typescript },
     { name: "Node.js", icon: Nodejs },
     { name: "Express.js", icon: ExpressJS },
@@ -61,7 +63,7 @@ export const DATA = {
     { name: "Azure", icon: Azure },
     { name: "Google Cloud", icon: GoogleCloud },
     { name: "Vercel", icon: Vercel },
-    // { name: "Stripe", icon: StripeLight },
+    { name: "Stripe", icon: Stripe },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
