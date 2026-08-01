@@ -43,7 +43,7 @@ export const DATA = {
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on LinkedIn.",
   summary:
     "At the start of 2025, I transitioned into full-time freelancing to focus on building and scaling high-performance web and mobile applications for my clients. Holding a Bachelor's degree in Computer Science and Engineering, I began my career with an internship at a tech company in Mohali and have since contributed to three different companies as a Full Stack Developer. A highly resourceful, self-taught engineer, I built a strong technical foundation through hands-on development and specialized expertise in the MERN stack.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/linkedin.png",
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
