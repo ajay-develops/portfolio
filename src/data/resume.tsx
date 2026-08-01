@@ -197,6 +197,44 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "ZyraSound",
+      href: "https://zyrasound.ajaydevelops.in",
+      dates: "2026 - Present",
+      active: true,
+      description:
+        "Built a realtime collaborative music platform where musicians in different countries play together in time. Notes travel between browsers as MIDI over WebRTC data channels rather than as audio, so each peer synthesises everyone's playing locally — a few bytes per note instead of a stream — with a shared musical clock keeping the room in sync. Includes browser-native instruments written as AudioWorklets, loop recording, peer-to-peer voice and video, per-person room invites, and a SoundCloud-style community feed where loops are rendered to audio in the browser and published for anyone to hear.",
+      technologies: [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "WebRTC",
+        "Web Audio API",
+        "AudioWorklet",
+        "Web MIDI",
+        "WebSockets",
+        "Clerk",
+        "Postgres",
+        "Neon",
+        "UploadThing",
+        "Vercel",
+        "Fly.io",
+        "Cloudflare TURN",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://zyrasound.ajaydevelops.in",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ajay-develops/zyrasound-claude",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "", // no recording yet — see note below
+    },
+    {
       title: "ZemaFidelat",
       href: "https://zemafidelat.com",
       dates: "2026 - Present",
@@ -221,7 +259,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      video:"https://4yyf0ye423.ufs.sh/f/hYMf620cdTwfzVwUjGa7SqORwrG3sypi61KtvDUAWaV0xdHu"
+      video:"https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/zema-fidelat.mp4"
     },
     {
       title: "SubGenAI",
@@ -254,7 +292,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      video:"https://4yyf0ye423.ufs.sh/f/hYMf620cdTwfcDjwxChNXmlbt0zBrKI7p8GfnPkaHDLqy6oV"
+      video:"https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/subgenai.mp4"
     },
     {
       title: "Webpage Showcase",
@@ -284,7 +322,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      video: "https://4yyf0ye423.ufs.sh/f/hYMf620cdTwflPnACAteD7nVWwKH3yJfBUXS1imLY0ZdNMF9"
+      video: "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/webpage-showcase.mp4"
     },
     {
       title: "Logopsi Estudios Ed Tech WebApp",
@@ -314,7 +352,7 @@ export const DATA = {
         },
       ],
       image:
-        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZB5u2DOkp1ATUW8h0YFJvDsBpCZN9cEdxmbyaV",
+        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/logopsi-estudios.png",
     },
     {
       title: "Gastro Genius Challenge",
@@ -348,7 +386,7 @@ export const DATA = {
         // },
       ],
       image:
-        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBceS4MRQ3pzGFbN9tPDEgi7XYIlm1QwkMZCUH",
+        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/gastro-genius-challenge.png",
     },
     {
       title: "NextGenPayment Website & Marketing",
@@ -366,9 +404,9 @@ export const DATA = {
         },
       ],
       image:
-        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBj5Rg7NPZWcXAiRwJgVpOLxofjNBUrG75ulkb",
+        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/nextgenpayment.png",
       video:
-        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZB5ficjfp1ATUW8h0YFJvDsBpCZN9cEdxmbyaV",
+        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/nextgenpayment.mp4",
     },
     {
       title: "Open-Source WhatsApp CRM Automator",
@@ -395,7 +433,7 @@ export const DATA = {
         },
       ],
       video:
-        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBuFM3SK0qBA8gH0slpkoEKaN39QzfyGeW7OxT",
+        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/whatsapp-crm-automator.mp4",
     },
     {
       title: "Scale Analytics App",
@@ -423,7 +461,7 @@ export const DATA = {
         },
       ],
       image:
-        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBWwCJdYcrbCUeJLmhPzXSQ3BNcuEf5OTiDsZx",
+        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/scale-analytics.jpg",
     },
   ],
   // Example hackathon entry — uncomment and add to the array to restore the timeline section.
