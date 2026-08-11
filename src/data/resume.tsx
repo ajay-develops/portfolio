@@ -272,6 +272,40 @@ export const DATA = {
       video:"https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/zema-fidelat.mp4"
     },
     {
+      title: "Gastro Genius Challenge",
+      href: "https://gastrogeniuschallenge.com",
+      dates: "April 2025 - Present",
+      active: true,
+      description:
+        "Developed a cross-platform mobile application and administrative ecosystem for gastroenterology professionals. Engineered interactive, gamified medical quizzes, real-time peer challenges, and competitive leaderboards, managing full-cycle deployment across both major app marketplaces.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "Typescript",
+        "TailwindCSS",
+        "Next.js",
+        "Payload CMS",
+        "MongoDB",
+        "GraphQL",
+        "REST API",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://gastrogeniuschallenge.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/magicuidesign/magicui",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image:
+        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/gastro-genius-challenge.png",
+    },
+    {
       title: "SubGenAI",
       href: "https://subgenai.ajaydevelops.in",
       dates: "2026 - Present",
@@ -363,40 +397,6 @@ export const DATA = {
       ],
       image:
         "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/logopsi-estudios.png",
-    },
-    {
-      title: "Gastro Genius Challenge",
-      href: "https://gastrogeniuschallenge.com",
-      dates: "April 2025 - Present",
-      active: true,
-      description:
-        "Developed a cross-platform mobile application and administrative ecosystem for gastroenterology professionals. Engineered interactive, gamified medical quizzes, real-time peer challenges, and competitive leaderboards, managing full-cycle deployment across both major app marketplaces.",
-      technologies: [
-        "React Native",
-        "Expo",
-        "Typescript",
-        "TailwindCSS",
-        "Next.js",
-        "Payload CMS",
-        "MongoDB",
-        "GraphQL",
-        "REST API",
-        "Vercel",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://gastrogeniuschallenge.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/magicuidesign/magicui",
-        //   icon: <Icons.github className="size-3" />,
-        // },
-      ],
-      image:
-        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/gastro-genius-challenge.png",
     },
     {
       title: "NextGenPayment Website & Marketing",

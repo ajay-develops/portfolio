@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MailIcon, PhoneIcon } from "lucide-react";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 import { DATA } from "@/data/resume";
 
@@ -35,6 +36,22 @@ export default function ContactSection() {
           </Link>{" "}
           and I&apos;ll respond whenever I can. I will ignore all soliciting.
         </p>
+        <div className="mt-2 flex flex-col sm:flex-row items-center gap-3 sm:gap-6">
+          <Link
+            href={`mailto:${DATA.contact.email}`}
+            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
+          >
+            <MailIcon className="size-4" />
+            {DATA.contact.email}
+          </Link>
+          <Link
+            href={`tel:${DATA.contact.tel}`}
+            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
+          >
+            <PhoneIcon className="size-4" />
+            {DATA.contact.tel}
+          </Link>
+        </div>
       </div>
     </div>
   );
