@@ -119,8 +119,27 @@ export const DATA = {
       logoUrl: "/tailorix.png",
       start: "January 2026",
       end: "Present",
-      description:
-        "Building and shipping two production platforms end-to-end — Tailorix, an on-demand tailoring marketplace, and Barbo, a local salon discovery and booking platform — covering backend, web, and mobile apps. Built Tailorix's booking engine covering the full order lifecycle (pending to delivered) with pickup/delivery scheduling and rush-order pricing, tiered SaaS subscriptions for tailors, and dual payment gateways (Razorpay + Stripe) with refund and reconciliation tracking. Implemented phone OTP, Google OAuth, and MPIN login, plus Firebase push notifications and in-app support chat. For Barbo, built passwordless OTP login with dual-role support so one phone number works as both customer and salon owner, a tiered subscription paywall gating dashboard access and bookings, and a marketing attribution engine tracking Instagram, WhatsApp, Google, and Facebook referral sources.",
+      description: `Built and shipped two production platforms end-to-end — backend, web, and mobile apps.
+
+**Tailorix** — on-demand tailoring marketplace · *Node.js, Express, MongoDB, React, React Native, Firebase*
+
+- Built the booking engine covering the full order lifecycle (pending → accepted → in progress → completed → delivered), with pickup/delivery scheduling and rush-order pricing
+- Built a digital measurement book so tailors keep every customer's measurements on file for accurate repeat orders
+- Designed tiered SaaS subscriptions (Home Starter / Shop Growth / Boutique Pro) on Razorpay, unlocking a digital order register and in-app fabric store
+- Integrated dual payment gateways (Razorpay + Stripe) with refund and reconciliation tracking
+- Built phone OTP, Google OAuth, and MPIN login, plus Firebase push notifications and in-app support chat
+
+**Result:** live three-sided marketplace (customers, tailors, admin) across web and mobile.
+
+**Barbo** — local salon discovery & booking platform · *Node.js, Express, MongoDB, React, Expo/React Native*
+
+- Built passwordless OTP login around mobile number as identity, with dual-role support so one number works as both customer and salon owner
+- Solved a legacy data problem by unifying identity lookups across 9+ inconsistent field names
+- Built a tiered subscription paywall (₹199 / ₹499 / ₹999 via Razorpay) gating dashboard access and bookings
+- Built a marketing attribution engine tracking Instagram, WhatsApp, Google, and Facebook referral sources
+- Kept already-published Android APKs working through API changes via versioned legacy route aliases
+
+**Result:** live at barbo.in, serving real salons and customers across 12 Indian languages.`,
     },
     {
       company: "WebFactory.Digital",
@@ -131,8 +150,14 @@ export const DATA = {
       logoUrl: "/webfactory.png",
       start: "February 2025",
       end: "January 2026",
-      description:
-        "Delivered end-to-end web solutions for clients across healthcare, fintech, and consumer domains, including a medical marketing platform and the [nextgenpayment.eu](https://nextgenpayment.eu) payments website. Built high-performance marketing and landing pages using [Next.js](https://docs.nextjs.org/) integrated with [Prismic CMS](https://prismic.io/) and Sanity CMS, giving clients independent content management. Shipped the Gastro Genius Challenge cross-platform mobile app for Android and iOS, developed the Oboe Automation project to streamline client workflows, and designed and shipped full-stack platforms for Logopsi and Odda covering both front-end and back-end. Created and deployed email marketing templates within GoHighLevel CRM to support client outreach campaigns.",
+      description: `Delivered end-to-end web solutions for clients across healthcare, fintech, and consumer domains.
+
+- Built the [nextgenpayment.eu](https://nextgenpayment.eu) payments website and a medical marketing platform
+- Built high-performance marketing and landing pages with [Next.js](https://docs.nextjs.org/), integrated with Prismic CMS and Sanity CMS for independent content management
+- Shipped the Gastro Genius Challenge cross-platform mobile app for Android and iOS
+- Built the Oboe Automation project to streamline client workflows
+- Designed and shipped full-stack platforms for Logopsi and Odda, covering both front-end and back-end
+- Created and deployed email marketing templates within GoHighLevel CRM for client outreach campaigns`,
     },
     {
       company: "Scale Healthcare Pvt. Ltd.",
@@ -143,8 +168,12 @@ export const DATA = {
       logoUrl: "/scale-healthcare.png",
       start: "March 2024",
       end: "February 2025",
-      description:
-        "Spearheaded the full-cycle development of the RCM (Revenue Cycle Management) web application, [Scale Analytics App](https://app.scale-analytics.com), improving data visibility for admins. Designed and maintained scalable backend services using [Node.js](https://nodejs.org/)/[Express.js](https://expressjs.com/) for high availability and fault tolerance, and managed complex data models and aggregation pipelines to ensure data integrity across user roles. Collaborated with cross-functional teams to integrate [Microsoft PowerBI](https://powerbi.microsoft.com/) reports for real-time decision-making, while securing database infrastructure using MongoDB and containerizing deployments with [Docker](https://www.docker.com/) on [Azure Cloud](https://azure.microsoft.com/en-in/products/cloud-services).",
+      description: `Spearheaded full-cycle development of the RCM (Revenue Cycle Management) web application, [Scale Analytics App](https://app.scale-analytics.com), improving data visibility for admins.
+
+- Designed and maintained scalable backend services with [Node.js](https://nodejs.org/)/[Express.js](https://expressjs.com/) for high availability and fault tolerance
+- Managed complex data models and aggregation pipelines in MongoDB to ensure data integrity across user roles
+- Integrated [Microsoft PowerBI](https://powerbi.microsoft.com/) reports for real-time decision-making
+- Containerized deployments with [Docker](https://www.docker.com/) on [Azure Cloud](https://azure.microsoft.com/en-in/products/cloud-services)`,
     },
     {
       company: "MarkeStac",
@@ -155,8 +184,12 @@ export const DATA = {
       logoUrl: "/markestac.png",
       start: "April 2023",
       end: "March 2024",
-      description:
-        "Engineered custom websites, bespoke themes, and automated workflows for enterprise clients by integrating HubSpot CMS (HubL) and GoHighLevel CRM with backend Serverless Functions. Using React.js, MaterialUI, and i18next, delivered pixel-perfect, localized frontends and high-converting custom email templates, while expanding platform capabilities through complex third-party API and secure Stripe integrations.",
+      description: `Engineered custom websites, bespoke themes, and automated workflows for enterprise clients.
+
+- Integrated HubSpot CMS (HubL) and GoHighLevel CRM with backend Serverless Functions for custom automation
+- Delivered pixel-perfect, localized frontends with React.js, MaterialUI, and i18next
+- Built high-converting custom email templates
+- Expanded platform capabilities through third-party API and secure Stripe integrations`,
     },
     {
       company: "SpiceTech IT Solutions, Kota",
@@ -167,8 +200,11 @@ export const DATA = {
       logoUrl: "/spicetech.png",
       start: "July 2022",
       end: "April 2023",
-      description:
-        "Developed and optimized custom [Shopify](https://www.shopify.com) extensions and modular theme add-ons using [JavaScript](https://www.javascript.com/), [jQuery](https://jquery.com/), and [Liquid](https://shopify.dev/docs/themes/liquid), focusing on cross-browser compatibility and frontend performance tuning to enhance e-commerce user experiences. Optimized frontend performance using GSAP and Framer Motion for smooth animations, and assisted in the development of Android applications using React Native, bridging the gap between web and mobile experiences.",
+      description: `Developed and optimized custom Shopify extensions and modular theme add-ons.
+
+- Built Shopify add-ons and themes with [Liquid](https://shopify.dev/docs/themes/liquid), JavaScript, and jQuery, focused on cross-browser compatibility
+- Optimized frontend performance with GSAP and Framer Motion for smooth animations
+- Assisted in developing Android applications with React Native, bridging web and mobile experiences`,
     },
     {
       company: "Talentelgia Technologies",
@@ -179,8 +215,12 @@ export const DATA = {
       logoUrl: "/talentelgia.png",
       start: "Feb 2022",
       end: "June 2022",
-      description:
-        "Gained hands-on experience building foundational [full-stack](https://roadmap.sh/full-stack) components using the [MERN stack](https://www.mongodb.com/mern-stack), collaborating within agile engineering teams, utilizing [Git/GitHub](https://github.com/) for version control, and conducting comprehensive [API testing](https://www.postman.com/) through [Postman](https://www.postman.com/).",
+      description: `Gained hands-on, foundational full-stack development experience within an agile engineering team.
+
+- Built web projects with HTML, CSS, Bootstrap, JavaScript, jQuery, Node.js, Express.js, EJS, and MongoDB
+- Built an e-commerce storefront with a React.js front end and an Express.js back end
+- Built an online calculator and a browser game inspired by Chrome's dino game
+- Used Git/GitHub for version control and ran API testing through Postman`,
     },
   ],
   education: [
@@ -194,7 +234,7 @@ export const DATA = {
     },
     {
       school: "Career Line Coaching, Sikar, RJ, IN",
-      href: "https://wlu.ca",
+      href: "https://www.clcsikar.com/",
       degree: "Higher Secondary education",
       logoUrl: "/clc.png",
       start: "2015",
