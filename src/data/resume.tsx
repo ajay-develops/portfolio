@@ -111,16 +111,28 @@ export const DATA = {
 
   work: [
     {
+      company: "Tailorix",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "Software Developer",
+      logoUrl: "/tailorix.png",
+      start: "January 2026",
+      end: "Present",
+      description:
+        "Building and shipping two production platforms end-to-end — Tailorix, an on-demand tailoring marketplace, and Barbo, a local salon discovery and booking platform — covering backend, web, and mobile apps. Built Tailorix's booking engine covering the full order lifecycle (pending to delivered) with pickup/delivery scheduling and rush-order pricing, tiered SaaS subscriptions for tailors, and dual payment gateways (Razorpay + Stripe) with refund and reconciliation tracking. Implemented phone OTP, Google OAuth, and MPIN login, plus Firebase push notifications and in-app support chat. For Barbo, built passwordless OTP login with dual-role support so one phone number works as both customer and salon owner, a tiered subscription paywall gating dashboard access and bookings, and a marketing attribution engine tracking Instagram, WhatsApp, Google, and Facebook referral sources.",
+    },
+    {
       company: "WebFactory.Digital",
       href: "https://webfactory.digital",
       badges: [],
       location: "Remote",
-      title: "CTO",
+      title: "Freelance Full Stack Developer",
       logoUrl: "/webfactory.png",
-      start: "January 2025",
-      end: "Present",
+      start: "February 2025",
+      end: "January 2026",
       description:
-        "Direct a cross-functional engineering team to architect, scale, and deploy complex web, mobile, and automation solutions across multiple industries. Oversee full-stack development using Next.js, React Native (Expo), Node.js, and PHP Symfony, while managing full-cycle mobile production, including successfully publishing and maintaining applications on the Apple App Store and Google Play Store. From building gamified mobile applications with GraphQL and Payload CMS to engineering secure web platforms integrated with Stripe, AWS, and Google Cloud, responsible for establishing technical roadmaps, standardizing modern UI systems (TailwindCSS, shadcn/ui), and leading deployment strategies across Vercel, Upsun, and cloud infrastructure.",
+        "Delivered end-to-end web solutions for clients across healthcare, fintech, and consumer domains, including a medical marketing platform and the [nextgenpayment.eu](https://nextgenpayment.eu) payments website. Built high-performance marketing and landing pages using [Next.js](https://docs.nextjs.org/) integrated with [Prismic CMS](https://prismic.io/) and Sanity CMS, giving clients independent content management. Shipped the Gastro Genius Challenge cross-platform mobile app for Android and iOS, developed the Oboe Automation project to streamline client workflows, and designed and shipped full-stack platforms for Logopsi and Odda covering both front-end and back-end. Created and deployed email marketing templates within GoHighLevel CRM to support client outreach campaigns.",
     },
     {
       company: "Scale Healthcare Pvt. Ltd.",
@@ -130,9 +142,9 @@ export const DATA = {
       title: "Full Stack Developer",
       logoUrl: "/scale-healthcare.png",
       start: "March 2024",
-      end: "January 2025",
+      end: "February 2025",
       description:
-        "Architected and deployed the end-to-end enterprise-grade [Scale Analytics App](https://app.scale-analytics.com), enabling healthcare organizations to visualize critical data. Built it with [Next.js](https://docs.nextjs.org/), [Express.js](https://expressjs.com/), and [Microsoft PowerBI](https://powerbi.microsoft.com/). Optimized application performance and state management via Redux, while securing database infrastructure using MongoDB and containerizing deployments with [Docker](https://www.docker.com/) on [Azure Cloud](https://azure.microsoft.com/en-in/products/cloud-services).",
+        "Spearheaded the full-cycle development of the RCM (Revenue Cycle Management) web application, [Scale Analytics App](https://app.scale-analytics.com), improving data visibility for admins. Designed and maintained scalable backend services using [Node.js](https://nodejs.org/)/[Express.js](https://expressjs.com/) for high availability and fault tolerance, and managed complex data models and aggregation pipelines to ensure data integrity across user roles. Collaborated with cross-functional teams to integrate [Microsoft PowerBI](https://powerbi.microsoft.com/) reports for real-time decision-making, while securing database infrastructure using MongoDB and containerizing deployments with [Docker](https://www.docker.com/) on [Azure Cloud](https://azure.microsoft.com/en-in/products/cloud-services).",
     },
     {
       company: "MarkeStac",
@@ -142,7 +154,7 @@ export const DATA = {
       title: "Full Stack Developer",
       logoUrl: "/markestac.png",
       start: "April 2023",
-      end: "November 2023",
+      end: "March 2024",
       description:
         "Engineered custom websites, bespoke themes, and automated workflows for enterprise clients by integrating HubSpot CMS (HubL) and GoHighLevel CRM with backend Serverless Functions. Using React.js, MaterialUI, and i18next, delivered pixel-perfect, localized frontends and high-converting custom email templates, while expanding platform capabilities through complex third-party API and secure Stripe integrations.",
     },
@@ -151,12 +163,12 @@ export const DATA = {
       href: "https://spicegems.com/",
       badges: [],
       location: "Kota, IN",
-      title: "Software Engineer",
+      title: "Junior Software Developer",
       logoUrl: "/spicetech.png",
       start: "July 2022",
-      end: "October 2022",
+      end: "April 2023",
       description:
-        "Developed and optimized custom [Shopify](https://www.shopify.com) extensions and modular theme add-ons using [JavaScript](https://www.javascript.com/), [jQuery](https://jquery.com/), and [Liquid](https://shopify.dev/docs/themes/liquid), focusing on cross-browser compatibility and frontend performance tuning to enhance e-commerce user experiences.",
+        "Developed and optimized custom [Shopify](https://www.shopify.com) extensions and modular theme add-ons using [JavaScript](https://www.javascript.com/), [jQuery](https://jquery.com/), and [Liquid](https://shopify.dev/docs/themes/liquid), focusing on cross-browser compatibility and frontend performance tuning to enhance e-commerce user experiences. Optimized frontend performance using GSAP and Framer Motion for smooth animations, and assisted in the development of Android applications using React Native, bridging the gap between web and mobile experiences.",
     },
     {
       company: "Talentelgia Technologies",
