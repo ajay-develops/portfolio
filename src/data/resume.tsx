@@ -117,7 +117,7 @@ export const DATA = {
       location: "Remote",
       title: "Software Developer",
       logoUrl: "/tailorix.png",
-      start: "January 2026",
+      start: "August 2025",
       end: "Present",
       description: `Built and shipped two production platforms end-to-end — backend, web, and mobile apps.
 
@@ -149,7 +149,7 @@ export const DATA = {
       title: "Freelance Full Stack Developer",
       logoUrl: "/webfactory.png",
       start: "February 2025",
-      end: "January 2026",
+      end: "July 2025",
       description: `Delivered end-to-end web solutions for clients across healthcare, fintech, and consumer domains.
 
 - Built the [nextgenpayment.eu](https://nextgenpayment.eu) payments website and a medical marketing platform
