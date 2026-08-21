@@ -55,9 +55,7 @@ export const metadata: Metadata = {
     yandex: "",
   },
   icons: {
-    iconUrl: "/favicon.ico",
-    shortcut: "shortcut icon",
-    type: "image/x-icon",
+    icon: "/favicon.ico",
   },
 };
 
