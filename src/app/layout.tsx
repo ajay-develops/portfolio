@@ -54,6 +54,11 @@ export const metadata: Metadata = {
     google: "",
     yandex: "",
   },
+  icons: {
+    iconUrl: "/favicon.ico",
+    shortcut: "shortcut icon",
+    type: "image/x-icon",
+  },
 };
 
 export default function RootLayout({
