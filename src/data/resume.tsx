@@ -281,8 +281,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      video:
-        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/zyrasound.mp4",
+      video: "", // Vercel Blob store got blocked and this recording never existed anywhere else — re-upload and set the UploadThing URL here
     },
     {
       title: "ZemaFidelat",
@@ -309,7 +308,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      video:"https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/zema-fidelat.mp4"
+      video:"https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBBkWsecn5PnZ6rTA8u9FibYcewOlpzGHKCVmQ"
     },
     {
       title: "Gastro Genius Challenge",
@@ -343,7 +342,7 @@ export const DATA = {
         // },
       ],
       image:
-        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/gastro-genius-challenge.png",
+        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBRULkruqMeA8OxbdIqXY1hg7CDuZa2vPTUL6n",
     },
     {
       title: "SubGenAI",
@@ -376,7 +375,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      video:"https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/subgenai.mp4"
+      video:"https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBbGNMxjKjgUAxV0v5liqd9uGHDILR1rP8yMhF"
     },
     {
       title: "Webpage Showcase",
@@ -406,7 +405,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      video: "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/webpage-showcase.mp4"
+      video: "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBAatSy3Zz7XQ9nZ8MwxB1KkNPUT4RvFVepai5"
     },
     {
       title: "Logopsi Estudios Ed Tech WebApp",
@@ -436,7 +435,7 @@ export const DATA = {
         },
       ],
       image:
-        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/logopsi-estudios.png",
+        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBi676LkJsse8ntChD1c7bP2VONgfRliZx9BwS",
     },
     {
       title: "NextGenPayment Website & Marketing",
@@ -454,9 +453,9 @@ export const DATA = {
         },
       ],
       image:
-        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/nextgenpayment.png",
+        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBcmxNdSQ3pzGFbN9tPDEgi7XYIlm1QwkMZCUH",
       video:
-        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/nextgenpayment.mp4",
+        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBESUEnOD77CZBAWTz298VgUFfJmyLeSnrExP1",
     },
     {
       title: "Open-Source WhatsApp CRM Automator",
@@ -483,7 +482,7 @@ export const DATA = {
         },
       ],
       video:
-        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/whatsapp-crm-automator.mp4",
+        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBr4wOVf3Fxjn6asdV5k4K3vJOGwREu9g0cWli",
     },
     {
       title: "Scale Analytics App",
@@ -511,7 +510,7 @@ export const DATA = {
         },
       ],
       image:
-        "https://vhmphhjkwjdfe3xj.public.blob.vercel-storage.com/projects/scale-analytics.jpg",
+        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBj5qrOjpPZWcXAiRwJgVpOLxofjNBUrG75ulk",
     },
   ],
   // Example hackathon entry — uncomment and add to the array to restore the timeline section.
