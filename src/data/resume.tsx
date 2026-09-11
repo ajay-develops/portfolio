@@ -281,7 +281,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      video: "", // Vercel Blob store got blocked and this recording never existed anywhere else — re-upload and set the UploadThing URL here
+      video:
+        "https://iac6kgxxs9.ufs.sh/f/ESSBJHp77CZBgi65wFUM1XLGkTonNrzOgAaHYpw5QS6yPceK",
     },
     {
       title: "ZemaFidelat",
